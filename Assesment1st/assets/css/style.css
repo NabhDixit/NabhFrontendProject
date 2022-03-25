@@ -1,0 +1,1697 @@
+body{
+   overflow-x: hidden;
+}
+.navbar{
+    background-color: #004621;
+    border: 1px solid;
+    }
+.navbarContainer{
+    margin-left: 31em;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    }
+.ourLocation{
+    font-size: 15px;
+   color: #fcb040;
+    font-weight: 500;
+    position: relative;
+    top: 0.5vh;
+    transition: transform 1s;
+}
+.ourLocation:hover{
+    transform: scale(1.2);
+}
+.fa-location-dot{
+    position: relative;
+    color: #ffffff;
+    font-size: 3vh;
+    top: 2vh;
+    right: 17.2vw;
+}
+.fa-envelope{
+    position: relative;
+    color: #ffffff;
+    font-size: 3vh;
+    top:2vh;
+    right: 17.8vw;
+}
+.fa-phone{
+    position: relative;
+    color: #ffffff;
+    left: 5vw;
+    top: 2vh;
+}
+.manakkal{
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: 500;
+    position: relative;
+    bottom: .5vh;
+}
+html{
+    scroll-behavior: smooth;
+}
+.green{
+    background-color: #004621;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 1em;
+}
+.greenResponsive{
+    display: none;
+}
+.dropdown{
+    display: none;
+}
+.location{
+    margin-right: 4em;
+}
+.ven{
+    width: 179px;
+    height: 50px;
+    background-color: #004621;
+    text-align:center;
+}
+.logo{
+    position: relative;
+    left: 4em;
+    width: 10em;
+    top: 1em;
+}
+.nav2{
+    display: flex;
+   
+}
+.menu{
+
+line-height: 26px;
+text-decoration: underline;
+color: #004621;
+font-weight: 800;
+font-family: "Raleway";
+text-align: center;
+font-size: 12px;
+text-decoration: none;
+transition: transform 1s;
+}
+.menu:hover{
+    color:#fcb040;
+    transform: scale(1.2);
+    font-size:14px;
+    text-decoration: underline;
+}
+.flexItem1{
+    position: relative;
+    top: 0.6em;
+    left: 6em;
+    padding: 18px;
+}
+.contact{
+    position: relative;
+    left: 139px;
+    top:1em;
+}
+.phone{
+    width:9.5em;
+}
+.intro{
+    height: 70vh;
+    width: 100vw;
+    margin-top: 20px;
+    background-image: url(./Rectangle\ 1\ \(2\).png);
+    background-size: 100vw 70vh;
+    background-repeat: no-repeat;
+}
+.rec1{
+    width: 100%;
+    height: 71vh;
+}
+.snap{
+       position: absolute;
+    width: 100vw;
+    height: 71vh;
+    left: 0px;
+}
+.inner{
+       position: absolute;
+    top: 8em;
+    padding: 6em;
+    color: white;
+    
+}
+.btn{
+    background-color: #fcb040;
+    color: white;
+    padding: 15px;
+    border: none;
+    width: 10em;
+}
+.explore{
+    width: 20em;
+    height: 5em;
+}
+ .btn:hover{
+    background-color: #3e8e41; 
+} 
+.flex-container{
+    display: flex;
+}
+.flexResponsive{
+    display: none;
+}
+.flexItem2{
+    display: flex;
+    margin: 3em 1em;
+    width: 19vw;
+    position: relative;
+    left: 5em;
+}
+.num{
+    position: absolute;
+    left: -2px;
+}
+.team{
+    line-height: 11px;
+    color: #004621;
+    position: relative;
+    left: 76px;
+}
+.image{
+    position: relative;
+    left: 6em;
+    
+}
+.rec{
+    width: 35vw;
+    height: 42vh;
+}
+.shape{
+    width: 7em;
+    position: absolute;
+    top: 11em;
+    left: 24em;
+}
+.exp{
+    width: 4em;
+    position: absolute;
+    left: 25em;
+    top: 11em;
+}
+.work{
+    width: 5em;
+    position: absolute;
+    top: 12em;
+    left: 25em;
+}
+.pic{
+    position: relative;
+    width: 35vw;
+    height: 42vh;
+    left: -30em;
+}
+.wel{
+    width: 17vw;
+    position: absolute;
+    left: 36em;
+}
+.para{
+    position: absolute;
+    left: 36em;
+    top: 4.2em;
+    width: 42vw;
+height: 28vh;
+font-size: 16px;
+line-height: 32px;
+color: #000000;
+font-weight: 400;
+}
+.btn1{
+    background-color: #fcb040;
+    color:white;
+    padding: 15px;
+    position: absolute;
+    left: 43em;
+    top: 15.9em;
+    border: none;
+    border-radius: 10px;
+}
+.btn1:hover{
+    background-color: #4CAF50;
+}
+.flex-container3{
+    display: flex;
+    margin-top: 4em;
+}
+.rec5{
+    width:100%;
+     height: 80vh;
+}
+.product{
+    position:absolute;
+    left: 34.6em;
+    top: 71.3em;
+}
+.brief{
+    position: absolute;
+    left: 38.9em;
+    top: 75.4em;
+}
+.rec6{
+    position: absolute;
+    height: 40vh;
+    width: 15vw;
+    top: 78.5em; 
+    transition: transform 1s;
+}
+.rec6:hover{
+    transform: scale(1.2);
+}
+#one{
+    left: 10em;
+}
+#two{
+    left: 27em;
+}
+#three{
+    left:44em;
+}
+#four{
+    left:61em;
+}
+.rec7{
+    position: absolute;
+    width: 3em;
+    top:79em;
+    box-shadow: -6px -4px 0px 2px #247149;
+}
+#five{
+    left:15em;
+}
+#six{
+    left: 32em;
+}
+#seven{
+    left:49em;
+}
+#eight{
+    left:66em;
+}
+.loremHeading{
+    position: absolute;
+    top: 83em;
+    width: 11em;
+}
+#lorem1{
+    left: 11em;
+}
+#lorem2{
+    left: 28em;
+}
+#lorem3{
+    left: 45em;
+}
+#lorem4{
+    left: 62em;
+}
+.loremContent{
+    position: absolute;
+    top: 85em;
+    width: 11em;
+}
+#lc1{
+    left: 11em;
+}
+#lc2{
+    left: 28em;
+}
+#lc3{
+    left: 45em;
+}
+#lc4{
+    left: 62em;
+}
+.para2{
+    position: absolute;
+    color: white;
+    top:89em;
+    font-weight: 800;
+}
+#pa1{
+    left: 14em; 
+}
+#pa2{
+    left: 31em; 
+}
+#pa3{
+    left: 48em; 
+}
+#pa4{
+    left: 65em; 
+}
+.flex-container4{
+    display: flex;
+    height: 80vh;
+}
+.fItem1{
+    width:50%;
+    height:80vh;
+    
+}
+#h1{
+    color:#004621;left:3em;position: relative;
+}
+.loremPara{
+    position: relative;
+    left: 6em;
+}
+.recShadow{
+    position: relative;
+    left: -27em;
+    top:5em;
+}
+.recOri{
+    position: relative;
+    left: -29.5em;
+    top:6em;
+    width: 4vw;
+}
+.briefcase1{
+    position: relative;
+    left:7em;
+    top: 2em;
+}
+.loremEdit{
+    position: relative;
+    left:9em;
+    top: 2.3em;
+}
+.recShadow1{
+    position: relative;
+    left:-17.5em;
+    top: 6.5em;
+}
+.recOri1{
+    width: 4vw;
+    position: relative;
+    left:-20em;
+    top:7.5em;
+}
+.briefcase2{
+    position: relative;
+    left:-23em;
+    top:7em;
+}
+.loremEdit1{
+    position: relative;
+    left:11.5em;
+    top: 4.2em;
+}
+.btn2{
+    color:white;
+    background-color: #004621;
+    padding: 15px;
+    position: relative;
+    left:-18em;
+    top:9em;
+    border: none;
+}
+.btn2:hover{
+    background-color: #fcb040;
+}
+.fItem2{
+    width:50%;
+    height:80vh;
+}
+.kampus{
+    height: 80vh;
+}
+.flex-container5{
+   display: flex;
+    width:100%;
+    height: 83vh;
+}
+.fItem3{
+    width:50%;
+    height:80v;
+}
+.fItem4{
+    display: flex;
+    flex-direction: column;
+}
+.layer4{
+    Position:relative;
+    left:6em;
+    top:3.5em;
+    height: 64vh;
+    width: 39vw;
+}
+.loans{
+    width: 30vw;
+    margin-top: 3.3em;
+}
+.loanHeading{
+    margin-top: 1.5em;
+    width: 35vw;
+}
+.fItem5{
+    display: flex;
+}
+.fItem6{
+    display: flex;
+    margin-top: -1em;
+}
+.fItem7{
+    display: flex;
+    margin-top: -1em;
+}
+.checkCircle{
+    margin-top: .8em;
+    width:1.5em;
+    height: 1.7em;
+}
+.loanPara{
+    margin-left: 1em;
+    font-weight: 600;
+}
+#loanbutton{
+    color: white;
+    background-color:  #004621;
+    position: relative;
+    left: -31em;
+    top: 4.5em;
+    padding: 12px;
+}
+#loanbutton:hover{
+    background-color: #fcb040;
+}
+.flex-container8{
+    display: flex;
+    height: 80vh;
+    background-image: url("./Rectangle\ 9\ \(2\).png");
+    flex-direction: column;
+}
+.investorRelations{
+    position: relative;
+    left: 6em;
+    top:2em;
+    height:10vh;
+    width: 35vw;
+}
+.investorDiv{
+    position: relative;
+    width: 37vw;
+    height: 15vh;
+    top:1.7em;
+    left:6.1em;
+}
+.investorContent{
+font-size: 16px;
+line-height: 32px;
+color: #ffffff;
+font-weight: 400;
+}
+.yellowCheck{
+    width:1.5em;
+    height: 1.7em;
+    left:6.1em;
+}
+#check{
+    position: relative;
+    top:6em;
+}
+#loan1{
+    position: relative;
+    left:7.5em;
+    top:3.3em;
+    color: white;
+}
+#check1{
+    position: relative;
+    top:4.5em;
+}
+#loan2{
+    position: relative;
+    top:1.8em;
+    left:7.5em;
+    color: white;
+}
+.relationButton{
+    position: relative;
+    color: white;
+    background-color: #004621;
+    padding: 14px;
+    top:4em;
+    left:7.4em;
+    border: none;
+}
+.relationButton:hover{
+    background-color: #fcb040;
+}
+.flex-container6{
+    display: flex;
+    background-color: lightgray;
+    justify-content: center;
+    
+}
+.flex-container6 > div {
+    margin:1em;
+} 
+
+.flex-container7{
+    display: flex;
+    height: 74vh;
+    flex-direction: row;
+}
+.customerTesimonial{
+   width: 49vw;
+}
+
+.frec12{
+    position: absolute;
+    top: 185.3em;
+    left: 40em;
+} 
+.investorTesimonials{
+    width: 97vw;
+}
+.client{
+    margin-top: 2em;
+}
+.rec15{
+ width:100%;
+ margin-left: -2px;
+}
+.flex-container3Responsive{
+    display: none;
+}
+.flex7Responsive{
+    display: none;
+}
+.inputTypeDiv{
+ 
+}
+.suscribe{
+    display: flex;
+    position: relative;
+    left: 6em;
+    top: 2.3em;
+    z-index: 1;
+    border-radius: 1em;
+    background-color: #004621;
+    justify-content: space-evenly;
+}
+.search{
+    height: 4em;
+    border: none;
+    
+    top: 1em;
+    outline: none;
+    border-radius: 12px;
+}
+.inputTypeDiv{
+    border: 1px solid;
+    position: relative;
+    right: 10em;
+    background-color: white;
+    margin-top: 0.8em;
+    height: 3.5em;
+    border-radius: 0.5em;
+    padding-right: 0.2em;
+}
+#susbtn{
+    border: none;
+    background-color:#004621;
+    height: 2.5em;
+    border-radius: 0.4em;
+    color: white;
+    width: 8em;
+}
+h4{
+    color: #ffffff;
+}
+.footer{
+    display: flex;
+    background-color: #000000;
+    position: relative;
+    left: 0.5em;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 4em;
+}
+.Velicham{
+    width: 334px;
+   height: 68px;
+   font-size: 15px;
+   line-height: 24px;
+   color: #ffffff;
+   font-weight: 300;
+}
+.quickLink{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 11em;
+    color: white;
+    height: 10em;
+    text-align: cent
+}
+.row1{
+    display: flex;
+    flex-direction: column;
+}
+.row2{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 3.8em;
+}
+.pageEnd{
+    background-color: #004621;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.4em;
+    position: relative;
+    left: 0.5em;
+}
+.reachUs{
+    display: flex;
+    flex-direction: column;
+    line-height: 0px;
+}
+.reachUsPara{
+    font-size: 16px;
+   color: #ffffff;
+    font-weight: 700;
+}
+.endSecM{
+    display: none;
+}
+
+
+
+/******************RESPONSIVE*********************************/
+
+
+@media (max-width: 420px){
+    .navbarContainer {
+        margin-left: 4em;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+    }
+    .ourLocation {
+        font-size: 12px;
+        line-height: 21px;
+        color: #fcb040;
+        font-weight: 500;
+    }
+    .manakkal {
+        font-size: 8px;
+        line-height: 10px;
+        color: #ffffff;
+        font-weight: 500;
+    }
+    .fa-location-dot {
+        position: relative;
+        color: #ffffff;
+        font-size: 2vh;
+        top: 1.9vh;
+        right: 30vw;
+    }
+    .fa-envelope {
+        position: relative;
+        color: #ffffff;
+        font-size: 2vh;
+        top: 1.9vh;
+        right: 30.4vw;
+    }
+    .fa-phone {
+        position: relative;
+        color: #ffffff;
+        left: -1vw;
+        top: 2vh;
+    }
+   
+    .nav2{
+        display: none;
+    }
+    
+    .intro{
+        height: 43vh;
+        width: 100vw;
+        margin-top: 20px;
+        background-image: url(./Rectangle\ 1\ \(2\).png);
+        background-size: 100vw 70vh;
+        background-repeat: no-repeat;
+    }
+    .dropbtn {
+        background-color: #004621;
+        color: white;
+        padding: 14px;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    position: relative;
+    left: 9em;
+      }
+      .dropdown {
+        position: relative;
+        display: inline-block;
+        margin: 1em 0em 0em 7em
+      }
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        left: 7.3em;
+      }
+      
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      
+      .dropdown-content a:hover {background-color: #f1f1f1}
+      
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      
+      .dropdown:hover .dropbtn {
+        background-color: #fcb040;
+      }
+     
+     .mail{
+        width: 23em;
+       height: 6vh;
+     }
+     .entrepreneurs{
+        width: 100vw;
+        margin-top: 1em;
+        height: 44vh;
+    }
+    .inner {
+        padding: 3em;
+        color: white;
+    }
+    .flex-container{
+        display: none;
+    }
+    .flexResponsive{
+        display: block;
+        display: flex;
+        position: relative;
+        margin-top: 1em;
+    }
+    .teamMember1{
+        position: relative;
+        left: 4.8em;
+    }
+    .num330{
+        position: relative;
+        width: 2em;
+    }
+    .teamPhoto{
+        width: 3em;
+        position: absolute;
+        left: 3em;
+    }
+    #tMember{
+        position: relative;
+        top: -2.5em;
+        left: 2.6em;
+        font-size: 18px;
+    }
+    .image{
+        
+        left: 0em;
+    }
+    .pic{
+        width: 90vw;
+        position: relative;
+        top: -17.9em;
+        height: 31vh;
+        left: 1em;
+    }
+    .rec{
+        width: 98vw;
+        height: 50vh;
+    }
+   .shape {
+    width: 7em;
+    position: absolute;
+    top: 24em;
+    left: 19.6em;
+    }
+
+    .work {
+        width: 5em;
+        position: absolute;
+        top: 25em;
+        left: 20.5em;
+    }
+    .exp {
+        width: 4em;
+        position: absolute;
+        left: 20.3em;
+        top: 24.5em;
+    }
+    .para {
+        position: relative;
+        left: 2em;
+        top: -9.8em;
+      width: 75vw;
+       height: 29vh;
+       font-size: 18px;
+        line-height: 32px;
+        color: #000000;
+        font-weight: 400;
+    }
+    .btn1 {
+        background-color: #fcb040;
+    color: white;
+    padding: 14px;
+    position: relative;
+    left: 3em;
+    top: -3em;
+    border: none;
+    border-radius: 20px;
+    }
+    .wel {
+        width: 37vw;
+        position: relative;
+        top: -13em;
+        left: 2.5em;
+    }
+    .flex-container3{
+        display: none;
+    }
+    .flex-container3Responsive{
+        display: block;
+        background-image: url("./Rectangle\ 5.png");
+        display: flex;
+        flex-direction: column;
+        height: 51vh;
+    }
+    .rec5 {
+        width: 100vw;
+        height: 60vh;
+    }
+    .product {
+        width: 29vw;
+        height: 7vh;
+        left: 7.6em;
+        top: 1.3em;
+        position: relative;
+    }
+    .productDiv{
+        position: relative;
+        margin-top: 3em;
+    }
+
+    .rec6Responsive{
+        position: absolute;
+        top: 131em;
+    }
+    .productPhoto{
+        width: 45vw;
+        position: relative;
+        left: 0.6em;
+    }
+    .flex-container4{
+        display: flex;
+        flex-direction: column;
+    }
+    .recShadow {
+        position: relative;
+        left: 0em;
+        top: 3em;
+    }
+    .recOri {
+        position: relative;
+        left: -2.5em;
+        top: 4em;
+        width: 14vw;
+    }
+    .briefcase1 {
+        position: relative;
+        left: -5.4em;
+        top: 3em;
+    }
+    .loremEdit {
+        width: 80vw;
+        position: relative;
+        left: 5em;
+        top: 0.3em;
+    }
+    .loremPara {
+        position: relative;
+        width: 90vw;
+        left:0px;
+        top:2em;
+    }
+    #h1 {
+        color: #004621;
+        position: relative;
+        left: 0px;
+    }
+    .recShadow1 {
+        position: relative;
+        left: 0em;
+        top: 3em;
+    }
+    .recOri1 {
+        position: relative;
+        left: -2.5em;
+        top: 4em;
+        width: 14vw;
+    }
+    .briefcase2 {
+        position: relative;
+        left: -5.4em;
+        top: 3em;
+    }
+    .loremEdit1 {
+        width: 80vw;
+        position: relative;
+        left: 5em;
+        top: 0.3em;
+    }
+    .btn2{
+        color: white;
+        background-color: #004621;
+        padding: 13px;
+        position: relative;
+        left: 0px;
+        top: 3em;
+        border: none;
+        border-radius: 33px;
+   }
+   .kampus {
+    height: 31vh;
+    top: 4em;
+    position: relative;
+}
+.fItem2 {
+    width: 100vw;
+    height: 80vh;
+}
+.flex-container5{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 12.5em;
+}
+.fItem3 {
+    width: 100vw;
+    height: 80vh;
+}
+.layer4 {
+    height: 31vh;
+    top: -7em;
+    position: relative;
+    width: 100vw;
+    left: 0px;
+}
+.loanHeading {
+    top: -3.5em;
+    width: 76vw;
+    position: relative;
+    left: 0em;
+}
+.loans {
+    width: 70vw;
+    top: -4.7em;
+    position: relative;
+}
+.fItem4 {
+    display: flex;
+    flex-direction: column;
+}
+.loanPara {
+    width: 80vw;
+}
+.flex-container8{
+    display: none;
+}
+.flex-container6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.5em;
+}
+.flex-container7{
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+}
+.customerTesimonial {
+    width: 97vw;
+}
+.frec12 {
+    width: 100vw;
+}
+.investorTesimonials {
+    width: 179vw;
+    position: relative;
+    top: -8em;
+}
+.frec12{
+    display: none;
+}
+.client {
+        width: 100vw;
+        position: relative;
+        top: -24em;
+    }
+ .clientImg{
+     width: 100vw;
+ }  
+ .newslettersDivision{
+    position: relative;
+    top: -19em;
+ } 
+ .inputTypeDiv {
+    border: 1px solid;
+    position: relative;
+    right: 1em;
+    background-color: white;
+    margin-top: 1.5em;
+    height: 3.5em;
+    border-radius: 0.5em;
+    padding-right: 0.2em;
+    bottom: 0.7em;
+}
+
+.suscribe {
+    display: flex;
+    position: relative;
+    left: 2em;
+    top: 3.3em;
+    z-index: 1;
+    border-radius: 1em;
+    background-color: #004621;
+    justify-content: space-evenly;
+}
+#susbtn {
+    border: none;
+    background-color: #004621;
+    height: 2.5em;
+    border-radius: 0.4em;
+    color: white;
+    width: 6em;
+    position: relative;
+    top: 0em;
+    left: -1em;
+}
+h1{
+    font-size: 12px;
+    position: relative;
+    top: 2em;
+}
+.endSection{
+    display: none;
+}
+.endSecM {
+        display: block;
+        position: relative;
+        bottom: 23em;
+}
+.ipsum{
+    line-height: 3em;
+}
+
+
+
+}
+
+
+/*******For ipad********/
+@media (min-width: 768px) and (max-width: 820px){
+    .navbar {
+        background-color: #004621;
+        width: 270vw;
+        height: 12vh;
+        position: relative;
+        left:2em;
+    }
+    .navbarContainer {
+        margin-left: 40em;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+    }
+    .ourLocation {
+        font-size: 22px;
+        color: #fcb040;
+        font-weight: 500;
+        position: relative;
+        top: 1vh;
+    }
+    .manakkal {
+        font-size: 18px;
+        color: #ffffff;
+        font-weight: 500;
+        position: relative;
+        bottom: 0.5vh;
+    }
+    .fa-envelope {
+        position: relative;
+        color: #ffffff;
+        font-size: 4vh;
+        top: 1.9vh;
+        right: 57vw;
+    }
+    .fa-location-dot {
+        position: relative;
+        color: #ffffff;
+        font-size: 4vh;
+        top: 1.9vh;
+        right: 55vw;
+    }
+    .fa-phone {
+        position: relative;
+        color: #ffffff;
+        left: 15vw;
+        top: 3vh;
+        font-size: 2.5vh;
+    }
+    .nav2 {
+        display: flex;
+        width: 156vw;
+        justify-content: center;
+    }
+    .logo {
+        position: relative;
+        left: 16em;
+        width: 13em;
+        top: 1em;
+    }
+    .flexItem1 {
+        position: relative;
+        top: 0.6em;
+        left: 28em;
+        padding: 17px;
+        width: 20vw;
+    }
+    .menu {
+        line-height: 30px;
+        color: #004621;
+        font-weight: 800;
+        font-family: "Raleway";
+        text-align: center;
+        font-size: 25px;
+        text-decoration: none;
+    }
+    .contact {
+        position: relative;
+        left: 38em;
+        top: 1em;
+    }
+    .phone {
+        width: 13.5em;
+    }
+    .intro {
+        margin-top: 35px;
+        width: 270vw;
+        background-size: 300vw;
+        position: relative;
+        left: 2em;
+    }
+    .rec1 {
+        width: 270vw;
+        height: 71vh;
+    }
+    .snap {
+        position: absolute;
+        width: 270vw;
+        height: 65vh;
+        left: 0px;
+        top: 23em;
+    }
+    .inner {
+        position: relative;
+        right: 3em;
+        top:-1em;
+        color: white;
+        font-size: 4vw;
+    }
+    .btn {
+        background-color: #fcb040;
+        color: white;
+        padding: 15px;
+        font-size: large;
+        border: none;
+        border-radius: 26px;
+        width: 20vw;
+    }
+    .flex-container {
+        display: flex;
+        width: 270vw;
+        position: relative;
+        left:2em;
+    }
+    .flexItem2 {
+        display: flex;
+        margin: 3em 1em;
+        width: 59vw;
+        position: relative;
+        left: 5em;
+    }
+    .num {
+        position: absolute;
+        left: 3px;
+    }
+    .flex-container3{
+        display: none;
+    }
+    .rec {
+        width: 62vw;
+        height: 42vh;
+    }
+    .pic {
+        position: relative;
+        width: 35vw;
+        height: 42vh;
+        left: -25em;
+    }
+    .shape {
+        width: 16em;
+        position: absolute;
+        top: 18em;
+        left: 18em;
+    }
+    .exp {
+        width: 9em;
+        position: absolute;
+        left: 20em;
+        top: 18em;
+    }
+    .work {
+        width: 14em;
+        position: absolute;
+        top: 20em;
+        left: 20em;
+    }
+    .wel {
+        width: 46vw;
+        position: absolute;
+        left: 42em;
+    }
+    .para{
+        position: absolute;
+        left: 22em;
+        top: 4.2em;
+        width: 110vw;
+        font-size: 30px;
+        line-height: 32px;
+        color: #000000;
+        font-weight: 400;
+    }
+    .btn1 {
+        background-color: #fcb040;
+        color: white;
+        padding: 17px;
+    position: absolute;
+    left: 36.2em;
+    top: 20.9em;
+    font-size: large;
+    width: 20vw;
+    border-radius: 26px;
+    border: none;
+    }
+    .flex-container3Responsive{
+        display: block;
+        width: 270vw;
+        height: 130vh;
+        background-color: #004621;
+        position: relative;
+        left:2em;
+        top: 3em;
+}
+   .product{
+    width: 54vw;
+    position: absolute;
+    left: 48.6em;
+    top: 3.3em;
+   }
+   .productDiv {
+    position: relative;
+    left: 22.5em;
+    top: 21em;
+}
+.productPhoto {
+    width: 87vw;
+}
+.fItem1 {
+    width: 50vw;
+    height: 80vh;
+}
+#h1 {
+    color: #004621;
+    left: 1.2em;
+    position: relative;
+    top: 0.2em;
+    font-size: 7em;
+}
+.loremPara {
+    width: 100vw;
+    position: relative;
+    left: 9em;
+
+}
+.recShadow {
+    position: relative;
+    left: 8em;
+    top: 1.7em;
+    width: 5em;
+}
+.recOri {
+    position: relative;
+    left: 3.5em;
+    top: 2.5em;
+    width: 10vw;
+}
+.briefcase1 {
+    position: relative;
+    left: 0em;
+    top: 1em;
+}
+.loremEdit {
+    width: 30em;
+    position: relative;
+    left: 16em;
+    top: -2em;
+}
+.recShadow1 {
+    position: relative;
+    left: 8em;
+    top: 1.7em;
+    width: 5em;
+}
+.recOri1 {
+    position: relative;
+    left: 3.5em;
+    top: 2.5em;
+    width: 10vw;
+}
+.briefcase2 {
+    position: relative;
+    left: 0em;
+    top: 1em;
+}
+.loremEdit1 {
+    width: 30em;
+    position: relative;
+    left: 16em;
+    top: -2em;
+}
+.kampus {
+    top: 7em;
+    width: 134vw;
+    height: 81vh;
+    position: relative;
+    left: 42em;
+}
+#loanbutton{
+    color: white;
+    background-color: #004621;
+    position: relative;
+    left: -26em;
+    top: 4.5em;
+    padding: 19px;
+    height: 8vh;
+    width: 30vw;
+    border-radius: 62px;
+    font-size: 2em;
+}
+.fItem4 {
+    left: 43em;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.loans {
+    width: 80vw;
+    margin-top: 13.3em;
+}
+.layer4 {
+    Position: relative;
+    left: 7em;
+    top: 15.5em;
+    height: 72vh;
+    width: 110vw;
+}
+.frec12{
+    display: none;
+}
+.btn2{
+    color: white;
+    background-color: #004621;
+    padding: 19px;
+    position: relative;
+    left: 4em;
+    width: 27vw;
+    top: 2em;
+    font-size: 2em;
+    border-radius: 30px;
+}
+.loanHeading {
+    margin-top: 1.5em;
+    width: 94vw;
+}
+.checkCircle {
+    margin-top: 1.8em;
+    width: 3.5em;
+    height: 3.7em;
+}
+.loanPara {
+    margin-left: 2em;
+    font-weight: 600;
+    font-size: 2em;
+    width: 92vw;
+}
+.flex-container8{
+    display: flex;
+    height: 85vh;
+    width: 265vw;
+    background-image: url(./Rectangle\ 9\ \(2\).png);
+    background-repeat: no-repeat;
+    background-size: 265vw;
+    flex-direction: column;
+    position: relative;
+    left: 2em;
+    top: 13em;
+}
+.investorRelations {
+    position: relative;
+    left: 6em;
+    top: 2em;
+    height: 12vh;
+    width: 82vw;
+}
+.investorDiv {
+    position: relative;
+    width: 100vw;
+    height: 8vh;
+    top: 2.7em;
+    left: 6.1em;
+}
+.investorContent {
+    font-size: 31px;
+    line-height: 32px;
+    color: #ffffff;
+    font-weight: 400;
+}
+#check {
+    position: relative;
+    top: 10em;
+}
+.yellowCheck {
+    width: 11vw;
+    height: 8vh;
+    left: 6.1em;
+}
+#loan1 {
+    position: relative;
+    left: 4.5em;
+    top: 1.3em;
+    color: white;
+}
+#loan2 {
+    position: relative;
+    top: -2.2em;
+    left: 4.5em;
+    color: white;
+}
+.readBtn{
+    display: none;
+}
+
+
+.flex-container6{
+    width: 265vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 9.4em;
+    position: relative;
+    left: 2em;
+}
+.flex-container7{
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+}
+.customerTesimonial {
+    width: 265vw;
+    height: 65vh;
+    position: relative;
+    left: 2em;
+    top: 3em;
+}
+.frec12 {
+    width: 100vw;
+}
+.investorTesimonials {
+    width: 179vw;
+    position: relative;
+    top: -8em;
+}
+.frec12{
+    display: none;
+}
+.client {
+    width: 265vw;
+    margin-top: 2em;
+    margin-left: 3em;
+}
+.clientImg{
+    width: 240vw;
+    height: 36vh;
+}
+.suscribe{
+    width: 255vw;
+}
+.footer{
+    width: 266vw;
+}
+.endSection{
+    width: 266vw;
+}
+.rec15{
+    width: 200vw;
+}
+   
+}
+@media (max-width:390px ){
+   .shape{
+    width: 7em;
+    position: absolute;
+    top: 22em;
+    left: 18em;
+   }
+   .exp {
+    width: 4em;
+    position: absolute;
+    left: 18.3em;
+    top: 22.5em;
+}
+.work {
+    width: 5em;
+    position: absolute;
+    top: 23em;
+    left: 19em;
+}
+}
+@media(max-width:393px){
+    .shape {
+        width: 7em;
+        position: absolute;
+        top: 22em;
+        left: 18.6em;
+    }
+    .exp {
+        width: 4em;
+        position: absolute;
+        left: 19.3em;
+        top: 21.5em;
+    }
+    .work {
+        width: 5em;
+        position: absolute;
+        top: 22.5em;
+        left: 20em;
+    }
+}
+
+/***************iPhone-SE*************************/
+@media (max-width:375px) {
+    .kampus {
+        width: 100vw;
+        height: 31vh;
+        top: 4em;
+        position: relative;
+    }
+    .client {
+        width: 100vw;
+        position: relative;
+        top: -16em;
+    }
+    .endSecM {
+        display: block;
+        position: relative;
+        bottom: 15em;
+}
+.dropbtn {
+    background-color: #004621;
+    color: white;
+    padding: 14px;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    position: relative;
+    left: 7.2em;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    left: 7em;
+    background-color: #f9f9f9;
+    min-width: 140px;
+    box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+    z-index: 1;
+
+} 
+.shape {
+    width: 8em;
+    position: absolute;
+    top: 17em;
+    left: 16.6em;
+}
+.exp {
+    width: 4em;
+    position: absolute;
+    left: 18em;
+    top: 17.5em;
+}
+.work {
+    width: 5em;
+    position: absolute;
+    top: 18.7em;
+    left: 18.5em;
+}
+.wel {
+    top: -11em;
+}
+
+}
