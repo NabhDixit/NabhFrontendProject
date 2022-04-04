@@ -1,0 +1,62 @@
+body{
+    background-image: url('./calculator-on-a-blue-background-photo.jpg');
+}
+.container{
+    text-align:center;
+    width: 40%;
+   position: relative;
+   left: 28em;
+    top: 2em;
+    height: 44vh;
+    border-radius: 20px;
+}
+.btn{
+    background-color: orange;
+   color: white;
+   margin: 0em 1em;
+   padding: 9px;
+   border-radius: 1em;
+   font-size: 1em;
+   box-shadow: 3px 3px 15px 5px
+}
+.btn:hover{
+    background-color: #ffa50033;
+    box-shadow: none;
+}
+.button{
+    margin: 1em 3em;
+    top: 2em;
+   position: relative;
+}
+.firstValue{
+    left: 8px;
+   position: relative;
+    top: 9px;
+}
+.secondValue{
+    position: relative;
+    top: 23px;
+}
+#res{
+    position: relative;
+    top: 4em;
+    left: 11rem;
+    width: 15vw;
+    height: 3vh;
+}
+#f{
+    border-radius: 1em;
+    border-color: red;
+    position: relative;
+    left: 5px
+    
+}
+#l{
+    border-radius: 1em;
+    border-color: red;
+    position: relative;
+    left: 5px
+}
+#heading{
+    color: red;
+}

@@ -1,0 +1,19 @@
+#myForm {
+    background-color:lightblue;
+    margin: 100px auto;
+    padding: 40px;
+    width: 40vw;
+    min-width: 300px;
+    border-radius: 35px;
+    box-shadow: 5px 4px 7px 1px
+  }
+button{
+    color:white;
+    padding: 4px;
+    font-size: 14px; 
+    border-radius: 10px;
+     border: none; 
+    border-bottom: 1px solid;
+    background-image: linear-gradient(to right, orange, green);
+  }
+  

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script src="./assets/js/index.js"></script>
+     <link rel="stylesheet" href="./assets/css/style.css"></link>
+</head>
+
+   
+<body>
+    <div class="container">
+        <h1 id="heading">Calculator</h1>
+        <form>
+            <div class="firstValue">
+               <b>Enter First Num :</b><input type="number" name="F_name" id="f" placeholder="enter first value">
+            </div>
+            <div class="secondValue">
+               <b>Enter Second Num :</b><input type="number" name="L_name" id="l" placeholder="enter Second value">
+          </div>
+          <div class="button">
+            <input type="button" value="+" onclick= "add()"   class="btn">
+            <input type="button" value="-" onclick= "subtract()" class="btn">
+            <input type="button" value="*" onclick= "multiply()" class="btn">
+            <input type="button" value="/" onclick= "division()" class="btn">
+            <input type="button" value="%" onclick= "remainder()" class="btn">
+          </div>
+            <p id= "res"></p>
+        </form>
+    </div>
+</body>
+</html>

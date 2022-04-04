@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="./assets/css/style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="./assets/jQuery/index.js"></script>
+
+</head>
+<body>
+<header><h1>Get Api Method</h1>Capsule Rockets Ship</header>
+<div id="mySidenav" class="sidenav">
+   <div class="dropdown">
+    <a href="javascript:void(0)" class="closebtn" >&times;</a>
+    <a href="#" id="capsule" >Capsule       <span class="caret"></span>
+    <ul class="capsule-menu">
+        <li><a href="#" id="all">All Capsule</a></li>
+        <li><a href="#" id="upcoming">Upcoming Capsule</a></li>
+        <li><a href="#" id="past">Past Capsule</a></li>
+      </ul>
+    </a>
+  </div> 
+    <a href="#" id="rockets">Rockets
+        <ul class="rockets-menu">
+            <li><a href="#" id="allRocket">All Rockets</a></li>
+            <li><a href="#" id="upcoming">Upcoming Rockets</a></li>
+          </ul>
+    </a>
+    <a href="#">Clients</a>
+    <a href="#">Contact</a>
+   <!-- close dropdown -->
+ 
+</div>
+
+<div class="" id="main">
+    <span style="font-size:30px;cursor:pointer;color: #e77f67;">&#9776;</span>
+  <!--write Code here------>
+  
+
+
+<div class="row "id="flex_container"></div>
+
+<div class="row "id="flex_containerUpcoming">
+</div>
+
+<div class="row" id="flex_containerPast"></div>
+<div class="row" id="rocket-data"> </div>
+
+
+<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+     <div class="modal-content">
+       <div class="capsule-details">
+        <div class=""> 
+            <h3 class="title"></h3>
+            <p class="capsul_id"></p>
+            <p class="statu"></p>
+            <p class="original_launc"></p>
+            <p class="landing"></p>
+            <p class="details"></p>
+        </div>
+      </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+ 
+ 
+ 
+    </div>
+  </div>
+
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+     <div class="modal-content">
+        <div id="rocket-details" style="display:none">
+            <div class="details">
+               <h3 class="title"></div>
+               <img class="detail-img"  scr=""/>
+               <p class="cost_per_launch"></p>
+                <p class="country"></p>
+           </div>
+     </div>
+   
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+ 
+ 
+ 
+    </div>
+  </div>
+
+    <!-- <div class="capsule-details">
+        <div class="" style="background-color: aqua;width:33%;text-align: center;margin-left: auto;margin-right: auto;
+        margin-top: 5em;"> 
+            <h3 class="title" style="color: #fff;"></h3>
+            <p class="capsul_id"></p>
+            <p class="statu"></p>
+            <p class="original_launc"></p>
+            <p class="landing"></p>
+            <p class="details"></p>
+        </div>
+    </div> -->
+    
+</div>
+   
+</body>
+</html> 

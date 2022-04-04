@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=<form id=" regForm" action="">
+  <title>StepForm</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  </link>
+  <script src="./assets/js/index.js"></script>
+</head>
+
+<body>                                                                         
+ 
+  <form id="regForm" action="#" onsubmit="">
+
+    <h1>RegistrationForm:</h1>
+
+    <div class="page1" id="about">Full Name:
+      <p><input placeholder="Enter FullName..." id="fname" onfocus="errorRemove()"  oninput="this.className = ''"
+          required></p>
+      E-mail
+      <p><input type="email" placeholder="Enter valid email..." id="emid" onfocus="errorRemove()" onfocusout="checkEmail()"></p>
+      <button type="button" onclick="hide()">Next</button>
+    </div>
+
+    <div class="hidden" id="addr">Age
+      <p><input type="text" placeholder="age..." id="dob" onfocus="errorRemove()"></p>
+      Address
+      <p><textarea placeholder="Enetr your PermanentAddress.." id="add" onfocus="errorRemove()"></textarea></p>
+      <button type="button" onclick="next1()">Next1</button>
+      <button type="button" onclick="see()">Previous</button>
+    </div>
+
+    <div class="hidden" id="pwd">Password
+      <p><input type="password" placeholder="make strong pwd" id="pword" onfocusout="checkPwd()" onfocus="errorRemove()"></p>
+      ConfirmPassword
+      <p><input type="password" placeholder="ConfirmPassword should match with pwd..." onfocus="errorRemove()" oninput="this.className = ''"
+          id="cp"></p>
+      <button type="button" onclick="see1()">Previous</button>
+      <button type="reset" value="Reset" id="r">Reset</button>
+      <button value="Submit" id="s" /*onsubmit="event.preventDefault();"*/
+        onclick="checkCPwd()">Submit</button>
+      </div>
+    
+
+    
+  </form>
+  <div class="para">
+    <p id ="res"></p>
+    <p id ="res1"></p>
+  </div>
+</body>
+
+</html>

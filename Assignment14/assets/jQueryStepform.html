@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQueryStepForm</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="./jQuery/index.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Register Here</h1>
+        <form id="registraion_form">
+        <div class="page1">
+            
+            <div>Name
+                <p><input id="form_fname" name=""></p>
+                <span class="error_form" id="fname_error_message">Name should not Empty</span>
+                <label></label>
+             </div>
+ 
+            <div>Email
+             <p><input type="email" id="form_email" name=""></p>
+             <span class="error_form" id="email_error_message">Not Valid Mail</span>
+             </div>
+
+             <div><button type="button" id="next">Next</button></div>
+
+           </div>
+
+
+           <div class="hidden1">
+            
+            <div>Age
+                <p><input type="number" id="form_age" name=""></p>
+                <span class="error_form" id="age_error_message">plz fill</span>
+                <label></label>
+             </div>
+ 
+            <div>Address
+             <p><input type="text" id="form_address" name=""></p>
+             <span class="error_form" id="address_error_message">plz fill</span>
+             </div>
+
+             <div>
+                <button type="button"id="back1">Previous</button>
+                 <button  type="button" id="next1">Next1</button>
+            </div>
+
+           </div>
+           
+           <div class="hidden2">
+            
+            <div>Password
+                <p><input type="password" id="form_pwd" name="" ></p>
+                <span class="error_form" id="pwd_error_message"></span>
+                <label></label>
+             </div>
+ 
+            <div>Confirm Password
+             <p><input type="password" id="form_cpwd" name=""></p>
+             <span class="error_form" id="cpwd_error_message"></span>
+             </div>
+
+            <div>
+                <button  type="button" id="back2">Previous</button>
+                <button type="submit" id="subm"name="">Register</button>
+            </div>
+
+           </div>
+          
+        </form>
+        <div class="circleDiv">
+            <p class="circle" id="ball_1"></p>
+            <p class="circle" id="ball_2"></p>
+            <p class="circle" id="ball_3"></p>
+        </div>
+    </div>
+
+</body>
+</html>
